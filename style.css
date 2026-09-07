@@ -53,6 +53,43 @@ body {
   font-style: italic;
 }
 
+/* ---------- Thanh lọc thể loại ---------- */
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-bottom: 40px;
+}
+
+.tag-filter:empty { margin-bottom: 0; }
+
+.tag-btn {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.tag-btn:hover { color: var(--ink); }
+
+.tag-btn.active {
+  color: var(--wine);
+  border-bottom-color: var(--wine);
+}
+
+.toc-tags, .story-tags {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--moss);
+  margin: 0 0 8px;
+}
+
+.story-tags { margin-bottom: 32px; }
+
 /* ---------- Trang chủ: mục lục truyện ---------- */
 .toc-item {
   display: flex;
