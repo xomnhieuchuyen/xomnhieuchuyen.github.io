@@ -1,0 +1,70 @@
+HƯỚNG DẪN SỬ DỤNG TRANG TRUYỆN
+================================
+
+BỘ FILE NÀY GỒM:
+- index.html      -> trang chủ, tự động liệt kê danh sách truyện
+- story.html       -> trang đọc truyện (dùng chung cho MỌI truyện)
+- stories.js       -> nơi DUY NHẤT bạn cần sửa để thêm/sửa/xóa truyện
+- style.css        -> giao diện, không cần đụng vào
+- audio/           -> nơi để các file mp3 (nếu bạn muốn upload mp3 lên thẳng đây)
+
+
+1. CÁCH THÊM MỘT TRUYỆN MỚI
+----------------------------
+Mở file stories.js, bạn sẽ thấy mảng STORIES chứa các khối như thế này:
+
+  {
+    slug: "ten-khong-dau-khong-cach",
+    title: "Tên truyện hiển thị",
+    date: "07/09/2026",
+    excerpt: "Một câu mô tả ngắn hiện ở trang chủ.",
+    paragraphs: [
+      "Đoạn văn thứ nhất.",
+      "Đoạn văn thứ hai.",
+      "Đoạn văn thứ ba."
+    ],
+    audio: "audio/ten-file.mp3",
+    youtube: "IDvideoYoutube"
+  },
+
+Copy nguyên khối này (từ dấu { đến dấu }, ), dán vào NGAY TRƯỚC dấu ]
+đóng mảng ở cuối file, rồi đổi các giá trị:
+
+- slug     : đặt tên viết liền không dấu, không khoảng trắng, không trùng
+             với slug của truyện khác (dùng làm đường link, vd: "truyen-so-3")
+- title    : tên truyện, muốn viết gì cũng được, có dấu bình thường
+- date     : ngày đăng, chỉ để hiển thị
+- excerpt  : câu mô tả ngắn hiện ở trang chủ
+- paragraphs: mỗi dòng trong ngoặc kép " " là MỘT đoạn văn.
+             Muốn thêm đoạn thì thêm dòng mới, nhớ có dấu phẩy giữa các dòng
+             (dòng cuối cùng không cần dấu phẩy)
+- audio    : nếu có mp3 thì ghi "audio/ten-file-mp3-cua-ban.mp3"
+             nếu chưa có thì để trống: ""
+- youtube  : chỉ cần ID của video, KHÔNG phải link đầy đủ.
+             Ví dụ link là https://www.youtube.com/watch?v=dQw4w9WgXcQ
+             thì ID là phần sau "v=" -> dQw4w9WgXcQ
+             Nếu chưa có video thì để trống: ""
+
+LƯU Ý: mỗi khối phải cách nhau bằng dấu phẩy ",", và toàn bộ chữ/dấu ngoặc
+kép phải giữ nguyên định dạng như mẫu — chỉ đổi NỘI DUNG bên trong ngoặc kép.
+
+Truyện thêm sau cùng trong file sẽ tự động hiện ở TRÊN CÙNG trang chủ.
+
+
+2. CÁCH THÊM FILE MP3
+----------------------
+Cách dễ nhất: bỏ file mp3 vào thư mục "audio/" ngay trong bộ file này,
+rồi ghi tên file vào ô "audio" trong stories.js như trên.
+Khi upload lên GitHub, chỉ cần kéo cả thư mục audio lên cùng.
+
+
+3. CÁCH ĐƯA TRANG WEB LÊN MẠNG (GitHub Pages, miễn phí)
+---------------------------------------------------------
+Xem hướng dẫn từng bước ở phần chat — mình đã tách riêng thành các bước
+dễ làm theo, không cần dùng dòng lệnh, chỉ cần kéo-thả file trên trình duyệt.
+
+
+4. SAU NÀY MUỐN GẮN QUẢNG CÁO ADSENSE
+---------------------------------------
+Khi kênh có lượng truy cập ổn định, quay lại nhắn cho Claude, mình sẽ
+chèn đoạn mã AdSense vào đúng vị trí trong index.html và story.html.
