@@ -56,4 +56,33 @@ const STORIES = [
   audio: "",
   youtube: ""
 },
+  {
+  slug: "bo-don-than-dan-ban-gai-ra-mat",
+  title: "Bố Đơn Thân Dẫn Bạn Gái Mới Về Ra Mắt, Con Gái 8 Tuổi Chỉ Nói Một Câu Khiến Cả Nhà Im Bặt",
+  date: "07/09/2026",
+  tags: ["Gia đình", "Cảm động"],
+  excerpt: "Sau năm năm gà trống nuôi con, người bố lo lắng đưa bạn gái mới về ra mắt, không ngờ chính con gái nhỏ lại là người đặt ra câu hỏi khiến cả bàn ăn lặng người.",
+  paragraphs: [
+    "Vợ tôi mất khi con gái Bống vừa tròn ba tuổi, sau một tai nạn giao thông trên đường đi làm về. Từ đó, tôi vừa làm bố vừa làm mẹ, một mình xoay xở nuôi con giữa những ngày tháng chật vật nhất của cuộc đời.",
+    "Suốt năm năm, tôi không hẹn hò với ai. Không phải vì không có người theo đuổi, mà vì tôi sợ. Sợ đưa một người phụ nữ khác vào cuộc sống của con, rồi lỡ mọi chuyện không suôn sẻ, người tổn thương nhiều nhất sẽ là Bống — đứa trẻ đã quá quen với việc chỉ có bố bên cạnh mỗi tối.",
+    "Cho đến khi tôi gặp Linh.",
+    "Cô là đồng nghiệp mới chuyển đến công ty, hiền lành, ít nói, và đặc biệt kiên nhẫn. Có lần công ty tổ chức dã ngoại, tôi phải mang Bống theo vì không tìm được người trông, Linh là người duy nhất ngồi cả buổi chiều chơi xếp hình với con bé mà không một lần tỏ ra khó chịu. Từ đó, chúng tôi thân nhau dần, rồi bắt đầu hẹn hò sau nhiều tháng tôi đắn đo.",
+    "Sáu tháng sau, tôi quyết định đưa Linh về nhà, ra mắt Bống một cách chính thức.",
+    "Tối hôm đó, tôi chuẩn bị bữa cơm thật tươm tất, dặn dò Bống trước cả tuần rằng bố có một người bạn muốn đến chơi, muốn con bé cư xử ngoan ngoãn. Con bé gật đầu, không hỏi gì thêm, khiến tôi phần nào yên tâm.",
+    "Linh đến đúng giờ, mang theo một hộp bánh và một con gấu bông nhỏ làm quà cho Bống. Con bé nhận quà, lễ phép cảm ơn, rồi ngồi vào bàn ăn cùng chúng tôi như một đứa trẻ ngoan bình thường. Tôi thở phào, nghĩ rằng mọi chuyện đang diễn ra suôn sẻ hơn tôi tưởng.",
+    "Nhưng đến giữa bữa ăn, Bống đột nhiên đặt đũa xuống, nhìn thẳng vào Linh, giọng nói nhỏ nhưng rõ ràng đến mức cả bàn ăn chợt im bặt:",
+    "— Cô có biết vì sao bố cháu không dám dẫn ai về nhà suốt năm năm nay không?",
+    "Linh sững lại, không biết đáp thế nào. Tôi cũng bất ngờ, định lên tiếng ngắt lời con, nhưng Bống tiếp tục, ánh mắt không hề có ác ý, chỉ có một sự nghiêm túc lạ lùng so với tuổi tám:",
+    "— Vì bố sợ. Bố sợ nếu dẫn ai về mà người đó không thương cháu thật lòng, thì bố sẽ phải chọn, và bố sẽ chọn cháu. Nhưng bố cũng sợ nếu cứ mãi như vậy, bố sẽ cô đơn cả đời.",
+    "Cả bàn ăn lặng đi. Tôi nhìn con gái, cổ họng nghẹn lại, không ngờ đứa trẻ tôi vẫn nghĩ còn quá nhỏ để hiểu chuyện lại mang trong lòng những suy nghĩ sâu sắc đến vậy.",
+    "Bống quay sang Linh, giọng chợt dịu lại:",
+    "— Cháu không ghét cô. Cháu chỉ muốn hỏi: nếu sau này cô và bố cháu có cãi nhau, cô có bỏ đi giống như nhiều người lớn khác không? Vì mẹ cháu bỏ đi rồi, cháu không muốn có thêm ai bỏ đi nữa.",
+    "Linh đặt đũa xuống, mắt đỏ hoe. Cô quỳ xuống ngang tầm mắt Bống, nắm lấy hai bàn tay nhỏ bé của con bé, giọng run run nhưng chân thành:",
+    "— Cô không dám hứa sẽ không bao giờ cãi nhau với bố con, vì đó là chuyện bình thường của người lớn. Nhưng cô hứa, nếu cô và bố con có giận nhau, cô sẽ luôn ở lại để giải quyết, chứ không bao giờ bỏ đi mà không nói một lời. Con có cho cô cơ hội để chứng minh điều đó không?",
+    "Bống nhìn Linh thật lâu, rồi khẽ gật đầu, đôi mắt trẻ con ầng ậng nước:",
+    "— Vậy cô nhớ giữ lời nhé.",
+    "Tối hôm đó, sau khi Linh về, tôi ngồi bên giường Bống, hỏi con vì sao lại nói những điều ấy trong bữa cơm. Con bé nhìn tôi, cười nhẹ:",
+    "— Vì con muốn biết cô ấy có thật lòng không, bố ạ. Con không muốn bố buồn thêm một lần nào nữa.",
+    "Tôi ôm con vào lòng, không nói được lời nào, chỉ thấy sống mũi cay xè. Suốt năm năm qua, tôi luôn nghĩ mình là người duy nhất gánh vác, bảo vệ con. Nhưng hóa ra, trong trái tim bé nhỏ ấy, con cũng đang âm thầm bảo vệ tôi theo cách của riêng mình.",
+    "Một năm sau, tôi và Linh làm đám cưới nhỏ, chỉ có gia đình hai bên và vài người bạn thân. Trong buổi lễ, Bống là người cầm nhẫn, mặc chiếc váy trắng con bé tự chọn, gương mặt rạng rỡ nhất trong tất cả mọi
 ];
