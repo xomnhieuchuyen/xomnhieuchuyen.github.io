@@ -56,7 +56,7 @@ const STORIES = [
   audio: "",
   youtube: ""
 },
-  {
+ {
   slug: "bo-don-than-dan-ban-gai-ra-mat",
   title: "Bố Đơn Thân Dẫn Bạn Gái Mới Về Ra Mắt, Con Gái 8 Tuổi Chỉ Nói Một Câu Khiến Cả Nhà Im Bặt",
   date: "07/09/2026",
@@ -84,5 +84,10 @@ const STORIES = [
     "Tối hôm đó, sau khi Linh về, tôi ngồi bên giường Bống, hỏi con vì sao lại nói những điều ấy trong bữa cơm. Con bé nhìn tôi, cười nhẹ:",
     "— Vì con muốn biết cô ấy có thật lòng không, bố ạ. Con không muốn bố buồn thêm một lần nào nữa.",
     "Tôi ôm con vào lòng, không nói được lời nào, chỉ thấy sống mũi cay xè. Suốt năm năm qua, tôi luôn nghĩ mình là người duy nhất gánh vác, bảo vệ con. Nhưng hóa ra, trong trái tim bé nhỏ ấy, con cũng đang âm thầm bảo vệ tôi theo cách của riêng mình.",
-    "Một năm sau, tôi và Linh làm đám cưới nhỏ, chỉ có gia đình hai bên và vài người bạn thân. Trong buổi lễ, Bống là người cầm nhẫn, mặc chiếc váy trắng con bé tự chọn, gương mặt rạng rỡ nhất trong tất cả mọi
+    "Một năm sau, tôi và Linh làm đám cưới nhỏ, chỉ có gia đình hai bên và vài người bạn thân. Trong buổi lễ, Bống là người cầm nhẫn, mặc chiếc váy trắng con bé tự chọn, gương mặt rạng rỡ nhất trong tất cả mọi người.",
+    "Đến giờ, mỗi khi có ai hỏi tôi vì sao tin tưởng để bước thêm bước nữa sau từng ấy năm đơn độc, tôi chỉ mỉm cười và nói: người giúp tôi có thêm can đảm, không phải ai khác, mà chính là con gái tám tuổi của tôi — đứa trẻ đã dạy tôi rằng, đôi khi, chính những người nhỏ bé nhất lại mang trong mình trái tim rộng lớn nhất."
+  ],
+  audio: "",
+  youtube: ""
+},
 ];
