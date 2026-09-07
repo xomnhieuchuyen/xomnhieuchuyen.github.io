@@ -17,6 +17,7 @@ Mở file stories.js, bạn sẽ thấy mảng STORIES chứa các khối như t
     slug: "ten-khong-dau-khong-cach",
     title: "Tên truyện hiển thị",
     date: "07/09/2026",
+    tags: ["Tình cảm", "Đô thị"],
     excerpt: "Một câu mô tả ngắn hiện ở trang chủ.",
     paragraphs: [
       "Đoạn văn thứ nhất.",
@@ -34,6 +35,16 @@ Copy nguyên khối này (từ dấu { đến dấu }, ), dán vào NGAY TRƯỚ
              với slug của truyện khác (dùng làm đường link, vd: "truyen-so-3")
 - title    : tên truyện, muốn viết gì cũng được, có dấu bình thường
 - date     : ngày đăng, chỉ để hiển thị
+- tags     : danh sách thể loại của truyện, viết trong ngoặc vuông [ ],
+             mỗi thể loại để trong ngoặc kép, cách nhau bằng dấu phẩy.
+             Ví dụ: tags: ["Tình cảm", "Học đường"]
+             Nếu chưa muốn gắn thể loại thì để: tags: []
+             Trang chủ sẽ TỰ ĐỘNG hiện thanh lọc theo tất cả các thể loại
+             đang có trong stories.js, không cần khai báo danh sách thể loại
+             ở đâu khác — chỉ cần gõ tên thể loại trong tags là đủ.
+             Gõ giống hệt chính tả ở các truyện khác (vd luôn viết "Tình cảm",
+             đừng lúc thì "Tinh Cam" lúc thì "tình cảm") để không bị tách
+             thành 2 thể loại khác nhau.
 - excerpt  : câu mô tả ngắn hiện ở trang chủ
 - paragraphs: mỗi dòng trong ngoặc kép " " là MỘT đoạn văn.
              Muốn thêm đoạn thì thêm dòng mới, nhớ có dấu phẩy giữa các dòng
@@ -51,20 +62,29 @@ kép phải giữ nguyên định dạng như mẫu — chỉ đổi NỘI DUNG 
 Truyện thêm sau cùng trong file sẽ tự động hiện ở TRÊN CÙNG trang chủ.
 
 
-2. CÁCH THÊM FILE MP3
+2. CÁCH XÓA MỘT TRUYỆN
+------------------------
+Mở stories.js, tìm khối { ... } của truyện muốn xóa (nhận ra qua "title"),
+xóa nguyên khối đó từ dấu { đến dấu } cùng dấu phẩy theo sau. Nhớ không để
+sót dấu phẩy thừa (2 dấu phẩy liền nhau hoặc thiếu dấu phẩy giữa 2 khối
+còn lại sẽ làm trang web bị lỗi trắng trang). Xóa xong bấm Commit changes
+là trang chủ tự cập nhật ngay.
+
+
+3. CÁCH THÊM FILE MP3
 ----------------------
 Cách dễ nhất: bỏ file mp3 vào thư mục "audio/" ngay trong bộ file này,
 rồi ghi tên file vào ô "audio" trong stories.js như trên.
 Khi upload lên GitHub, chỉ cần kéo cả thư mục audio lên cùng.
 
 
-3. CÁCH ĐƯA TRANG WEB LÊN MẠNG (GitHub Pages, miễn phí)
+4. CÁCH ĐƯA TRANG WEB LÊN MẠNG (GitHub Pages, miễn phí)
 ---------------------------------------------------------
 Xem hướng dẫn từng bước ở phần chat — mình đã tách riêng thành các bước
 dễ làm theo, không cần dùng dòng lệnh, chỉ cần kéo-thả file trên trình duyệt.
 
 
-4. SAU NÀY MUỐN GẮN QUẢNG CÁO ADSENSE
+5. SAU NÀY MUỐN GẮN QUẢNG CÁO ADSENSE
 ---------------------------------------
 Khi kênh có lượng truy cập ổn định, quay lại nhắn cho Claude, mình sẽ
 chèn đoạn mã AdSense vào đúng vị trí trong index.html và story.html.
