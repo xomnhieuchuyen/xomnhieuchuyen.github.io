@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trang truyện</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <a href="index.html" class="site-title">Trang truyện</a>
+      <span class="site-tagline">chữ, giọng đọc, và đôi khi cả hình ảnh</span>
+    </header>
+
+    <nav id="tagFilter" class="tag-filter"></nav>
+
+    <main id="toc"></main>
+  </div>
+
+  <script src="stories.js"></script>
+  <script>
+    const toc = document.getElementById('toc');
+    const tagFilter = document.getElementById('tagFilter');
+    let activeTag = null;
+
+    // Gom toàn bộ thể loại đang có, không trùng lặp
+    const allTags = [...new Set(STORIES.flatMap(s => s.tags || []))];
+
+    function renderTagFilter() {
+      if (!allTags.length) { tagFilter.innerHTML = ''; return; }
+      tagFilter.innerHTML = allTags.map(tag => {
+        const isActive = tag === activeTag;
+        return `<button class="tag-btn${isActive ? ' active' : ''}" data-tag="${tag}">${tag}</button>`;
+      }).join('');
+
+      tagFilter.querySelectorAll('.tag-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const tag = btn.dataset.tag;
+          activeTag = (activeTag === tag) ? null : tag;
+          renderTagFilter();
+          renderList();
+        });
+      });
+    }
+
+    function renderList() {
+      const filtered = activeTag
+        ? STORIES.filter(s => (s.tags || []).includes(activeTag))
+        : STORIES;
+
+      if (!filtered.length) {
+        toc.innerHTML = '<p class="empty-note">Chưa có truyện nào ở thể loại này.</p>';
+        return;
+      }
+
+      // Truyện thêm sau cùng trong stories.js hiện lên đầu
+      const ordered = filtered.slice().reverse();
+      toc.innerHTML = '';
+      ordered.forEach((story) => {
+        const originalIndex = STORIES.indexOf(story);
+        const num = String(originalIndex + 1).padStart(2, '0');
+        const tagsHtml = (story.tags && story.tags.length)
+          ? `<p class="toc-tags">${story.tags.join('  ')}</p>` : '';
+        const a = document.createElement('a');
+        a.className = 'toc-item';
+        a.href = `story.html?s=${encodeURIComponent(story.slug)}`;
+        a.innerHTML = `
+          <span class="toc-num">${num}</span>
+          <div class="toc-body">
+            <h2>${story.title}</h2>
+            <p class="toc-meta">${story.date}</p>
+            ${tagsHtml}
+            <p class="toc-excerpt">${story.excerpt || ''}</p>
+          </div>`;
+        toc.appendChild(a);
+      });
+    }
+
+    if (!STORIES.length) {
+      toc.innerHTML = '<p class="empty-note">Chưa có truyện nào được đăng.</p>';
+    } else {
+      renderTagFilter();
+      renderList();
+    }
+  </script>
+</body>
+</html>
