@@ -90,4 +90,37 @@ const STORIES = [
   audio: "",
   youtube: ""
 },
+  {
+  slug: "me-chong-bat-nghi-viec-cham-chau",
+  title: "Mẹ Chồng Bắt Tôi Nghỉ Việc Ở Nhà Chăm Cháu, 3 Năm Sau Đọc Được Cuốn Nhật Ký Bà Giấu Dưới Gối, Tôi Mới Hiểu Ra Tất Cả",
+  date: "07/09/2026",
+  tags: ["Gia đình", "Cảm động"],
+  excerpt: "Ba năm oán trách mẹ chồng vì bắt mình nghỉ việc, cho đến ngày tình cờ đọc được cuốn nhật ký cũ giấu dưới gối bà, mọi oán hận mới vỡ lẽ thành thấu hiểu.",
+  paragraphs: [
+    "Tôi từng là trưởng phòng marketing của một công ty truyền thông, sự nghiệp đang lên như diều gặp gió thì phát hiện mang thai. Ngày tôi báo tin vui, mẹ chồng tôi — bà Loan — không mừng rỡ như tôi tưởng, mà chỉ lặng lẽ nói một câu khiến tôi chưng hửng:",
+    "— Vậy là con nên nghỉ việc đi. Ở nhà chăm con cho tốt, tiền bạc để chồng con lo.",
+    "Tôi cố giải thích rằng mình vẫn có thể vừa làm việc vừa chăm con, rằng công ty có chế độ nghỉ thai sản đàng hoàng, rằng sự nghiệp của tôi cũng quan trọng không kém. Nhưng bà Loan khăng khăng, thậm chí còn gây áp lực với chồng tôi mỗi ngày, cho đến khi anh — vì không muốn gia đình lục đục — cũng nghiêng về phía mẹ.",
+    "Tôi nộp đơn nghỉ việc trong nước mắt, cảm giác như cả một phần con người mình bị cắt bỏ.",
+    "Ba năm sau, con gái tôi đã biết đi biết nói, còn tôi thì quanh quẩn với bếp núc, tã lót, không còn nhận ra chính mình của những năm tháng từng tự tin đứng thuyết trình trước hàng chục đối tác. Mỗi lần nhìn bạn bè cũ đăng ảnh thăng chức, đi công tác nước ngoài, lòng tôi lại nhói lên một nỗi tiếc nuối không tên.",
+    "Tôi bắt đầu oán trách mẹ chồng trong âm thầm. Tôi nghĩ bà cổ hủ, ích kỷ, chỉ muốn giữ con dâu ở nhà để hầu hạ gia đình chồng, không quan tâm gì đến ước mơ hay giá trị bản thân của tôi.",
+    "Cho đến một buổi chiều dọn phòng cho bà đi khám bệnh định kỳ, tôi vô tình làm rơi chiếc gối, và từ dưới đó rơi ra một cuốn sổ tay cũ, bìa da đã sờn màu.",
+    "Tò mò, tôi mở ra xem, và chết lặng khi nhận ra đó là nhật ký của bà, được viết từ hơn ba mươi năm trước.",
+    "\"Ngày 12 tháng 6. Hôm nay mình đi làm về muộn, con sốt cao mà không ai trông. Bà nội chồng mắng mình vô trách nhiệm, bỏ bê con cái vì công việc. Mình chỉ biết ôm con khóc suốt đêm, không dám nói với ai rằng mình cũng đang kiệt sức.\"",
+    "\"Ngày 3 tháng 9. Chồng đi công tác xa cả tháng, một mình mình vừa đi làm vừa chăm ba đứa nhỏ. Có hôm con sốt co giật, mình phải cõng con chạy bộ ra trạm xá lúc nửa đêm vì không có ai đưa đi. Nếu ngày đó có ai ở bên cạnh giúp mình, có lẽ mọi chuyện đã không tệ đến vậy.\"",
+    "Tôi lật từng trang, nước mắt rơi lã chã. Hóa ra, ba mươi năm trước, bà Loan cũng từng là một người phụ nữ vừa đi làm vừa nuôi con trong đơn độc, không có ai san sẻ, không có ai thấu hiểu. Bà đã từng suýt mất đi đứa con thứ hai vì không kịp đưa đi cấp cứu trong một lần trở bệnh nặng lúc bà đang đi công tác xa nhà.",
+    "Ở cuối cuốn nhật ký, có một trang viết gần đây, nét chữ đã run hơn vì tuổi tác:",
+    "\"Hôm nay con dâu giận mình vì bắt nó nghỉ việc. Mình biết nó nghĩ mình cổ hủ, ích kỷ. Nhưng mình không muốn nó phải trải qua những đêm một mình ôm con sốt mà không ai bên cạnh như mình ngày xưa. Mình không có nhiều thời gian để giải thích, mình chỉ mong con hiểu, tất cả cũng vì thương cháu, thương con, chứ không phải vì muốn giữ con ở nhà làm người hầu.\"",
+    "Tôi ngồi sụp xuống sàn nhà, cuốn nhật ký trên tay run rẩy. Suốt ba năm qua, tôi đã oán trách một người phụ nữ chỉ vì bà không biết cách diễn đạt tình thương của mình bằng lời nói dịu dàng, mà chỉ biết thể hiện qua những quyết định cứng nhắc, xuất phát từ chính nỗi đau bà từng trải qua.",
+    "Tối hôm đó, khi bà Loan đi khám về, tôi mang cuốn nhật ký ra, nhẹ nhàng đặt trước mặt bà.",
+    "— Mẹ, con xin lỗi vì đã tự tiện đọc, — tôi nói, giọng nghẹn ngào. — Nhưng con cảm ơn mẹ, vì đã cho con biết một phần cuộc đời mẹ mà con chưa từng hiểu.",
+    "Bà Loan nhìn cuốn sổ, đôi mắt già nua bỗng ầng ậng nước. Bà im lặng một lúc lâu, rồi khẽ nắm lấy tay tôi.",
+    "— Ngày đó mẹ không có ai giúp, không có ai hiểu cho nỗi khổ của mẹ. Mẹ chỉ không muốn con phải giống mẹ ngày xưa, một mình gánh vác tất cả mà không ai san sẻ.",
+    "Tôi ôm lấy bà, lần đầu tiên sau ba năm làm dâu, cảm nhận được một sự gần gũi thật sự giữa hai người phụ nữ từng đứng ở hai phía đối lập.",
+    "Sau lần đó, tôi và bà Loan ngồi lại nói chuyện thẳng thắn. Tôi chia sẻ về nỗi tiếc nuối sự nghiệp, còn bà kể cho tôi nghe trọn vẹn những năm tháng khó khăn của đời mình. Cuối cùng, bà là người chủ động đề nghị tôi quay lại làm việc bán thời gian, còn bà sẽ phụ tôi trông cháu vào buổi sáng.",
+    "— Mẹ không muốn con đánh mất chính mình như mẹ ngày xưa, — bà nói, nụ cười hiền hậu hiếm hoi hiện trên gương mặt đầy nếp nhăn.",
+    "Giờ đây, mỗi khi có ai hỏi tôi về mối quan hệ mẹ chồng nàng dâu, tôi chỉ mỉm cười và nói: đôi khi, khoảng cách giữa hai thế hệ phụ nữ không phải vì thiếu tình thương, mà vì thiếu một cơ hội để thật sự lắng nghe câu chuyện của nhau."
+  ],
+  audio: "",
+  youtube: ""
+},
 ];
